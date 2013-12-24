@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<groundItems>
+     <!-- 南区体育场 -->
+    <groundItem>
+        <LBlatitude>28762031</LBlatitude>
+        <LBlongtitude>115843061</LBlongtitude>
+        <RTlatitude>28762565</RTlatitude>
+        <RTlongtitude>115843780</RTlongtitude>
+        <ImageResId>0x7f020017</ImageResId>
+    </groundItem>
+     <!-- 北区体育场 -->
+     <groundItem>
+        <LBlatitude>28766539</LBlatitude>
+        <LBlongtitude>115841116</LBlongtitude>
+        <RTlatitude>28767742</RTlatitude>
+        <RTlongtitude>115842329</RTlongtitude>
+        <ImageResId>0x7f020017</ImageResId>
+    </groundItem>
+     <!-- 商业街-->
+     <groundItem>
+        <LBlatitude>28762431</LBlatitude>
+        <LBlongtitude>115845527</LBlongtitude>
+        <RTlatitude>28764038</RTlatitude>
+        <RTlongtitude>115846066</RTlongtitude>
+        <ImageResId>0x7f020002</ImageResId>
+    </groundItem>
+</groundItems>

@@ -1,0 +1,258 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:shrinkColumns="*"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:id="@+id/main_tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="农大地图"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/map_imageBtn"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/function_menu_jxau_map" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="出行服务"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/goout_imageBtn"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/function_menu_goout" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="常用电话"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/main_imageView4"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/ic_menu_call" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="活动通知"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/main_imageView5"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/ic_menu_call" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="校园景观"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/main_imageView6"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/ic_menu_call" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="校园资讯"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/main_imageView7"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/ic_menu_call" />
+                    </LinearLayout>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="电费查询"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/main_imageView8"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/ic_menu_call" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_white_box"
+                        android:orientation="vertical"
+                        android:padding="2dp" >
+
+                        <TextView
+                            android:id="@+id/main_textView10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="2dp"
+                            android:background="@drawable/side_menu_extend_bg"
+                            android:drawableLeft="@drawable/function_menu_left"
+                            android:gravity="center_vertical"
+                            android:text="教务助手"
+                            android:textAppearance="?android:attr/textAppearance"
+                            android:textColor="#ffffff" />
+
+                        <ImageButton
+                            android:id="@+id/main_imageView9"
+                            android:layout_width="150dp"
+                            android:layout_height="100dp"
+                            android:layout_weight="0.83"
+                            android:src="@drawable/ic_menu_call" />
+                    </LinearLayout>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>

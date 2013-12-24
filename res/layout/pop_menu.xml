@@ -1,0 +1,117 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#b0000000"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/current_location_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="当前位置:"
+            android:textColor="#40E0D0"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:id="@+id/current_location_radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/current_location_textView"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/current_location_radioBtn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="22dp"
+                android:textColor="#40E0D0"
+                android:text="农大" />
+
+            <RadioButton
+                android:id="@+id/current_location_radioBtn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#40E0D0"
+                android:text="财大" />
+
+            <RadioButton
+                android:id="@+id/current_location_radioBtn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/radioButton1"
+                android:textColor="#40E0D0"
+                android:text="下罗" />
+        </RadioGroup>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="线路："
+            android:textColor="#40E0D0"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/line240_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView2"
+            android:text="240"
+            android:textColor="#40E0D0"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/line704_checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/line240_checkBox"
+            android:text="704"
+            android:textColor="#40E0D0"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/set_off_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+             android:textColor="#40E0D0"
+            android:textSize="20sp"
+            android:text="出发" />
+
+        <Button
+            android:id="@+id/arrive_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/set_off_btn"
+            android:text="到达"
+            android:textColor="#40E0D0"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/map_route_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="线路" />
+	
+    <LinearLayout
+        android:id="@+id/map_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+         >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+			<Button
+                android:id="@+id/auto_loc_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="自动定位" />
+            <TextView
+                android:id="@+id/route_textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="起点：" />
+
+            <AutoCompleteTextView
+                android:id="@+id/start_ACTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+			 <Button
+                android:id="@+id/screen_hit_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="屏幕取点" />
+            <TextView
+                android:id="@+id/route_textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="终点：" />
+			
+            <AutoCompleteTextView
+                android:id="@+id/end_ACTextView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="" />
+            
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/drive_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:text="驾车搜索" />
+
+            <Button
+                android:id="@+id/transit_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:text="公交搜索" />
+
+            <Button
+                android:id="@+id/walk_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dip"
+                android:layout_marginRight="2dip"
+                android:layout_weight="1.0"
+                android:text="步行搜索" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapsView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" >
+    </com.baidu.mapapi.map.MapView>
+
+</LinearLayout>

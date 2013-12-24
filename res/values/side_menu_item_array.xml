@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="side_menu_item_array">
+        <item>今日</item>
+        <item>出行</item>
+        <item>活动</item>
+        <item>地图</item>
+        <item>电话</item>
+        <item>个人</item>
+        <item>教务助手</item>
+    </string-array>
+
+</resources>
